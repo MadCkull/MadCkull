@@ -1,10 +1,26 @@
 <div align="center">
   <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
     <tr>
-      <td align="center" width="70%">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&theme=dark#gh-dark-mode-only&count_private=true&hide_border=true&title_color=9932CC&icon_color=9932CC&text_color=c9d1d9" alt="MadStats" />
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&theme=default#gh-light-mode-only&count_private=true&hide_border=true&title_color=9932CC&icon_color=9932CC&text_color=000000" alt="MadStats" />
-      </td>
+     <td align="center" width="70%">
+  <picture>
+    <!-- Source for dark mode -->
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=9932CC&icon_color=9932CC&text_color=c9d1d9" 
+      media="(prefers-color-scheme: dark)" 
+    />
+    <!-- Source for light mode -->
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=9932CC&icon_color=9932CC&text_color=000000" 
+      media="(prefers-color-scheme: light)" 
+    />
+    <!-- Default image fallback (light mode) -->
+    <img 
+      width="100%" 
+      src="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=9932CC&icon_color=9932CC&text_color=000000" 
+      alt="MadStats" 
+    />
+  </picture>
+</td>
       <td align="center" width="30%">
         <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&hide=html&layout=compact&hide_border=true&title_color=9932CC&text_color=c9d1d9&bg_color=0d1117" alt="MadLanguages" />
         <br><br>
