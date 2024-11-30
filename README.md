@@ -59,14 +59,14 @@ Passionate Data Scientist and Full Stack Developer with a strong foundation in m
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=MadCkull&show=reviews&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=MadCkull&show=reviews&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&count_private=true"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&layout=compact&langs_count=8&hide_border=true&theme=transparent"/>
 </div>
 
 ### 🔥 Contribution Streak
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MadCkull&theme=tokyonight" alt="MadCkull's streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MadCkull&hide_border=true&theme=transparent" alt="MadCkull's streak"/>
 </div>
 
 ### 🏆 GitHub Trophies
