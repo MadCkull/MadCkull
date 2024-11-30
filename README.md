@@ -1,6 +1,6 @@
 <div align="center">
   
-# Hi there, I'm Hassan Ali 👋
+# Hi there, I'm Hassan Ʌʟı 👋
 
 <p align="center" style="text-decoration: none;">
   <a href="mailto:MadCkull@gmail.com" style="text-decoration: none">
