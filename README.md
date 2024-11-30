@@ -31,19 +31,17 @@
 
 ## 👨‍💻 About Me
 
-Data Scientist driven by curiosity and precision, blending analytical rigor with creative thinking to transform data into meaningful stories..
+Passionate Data Scientist and Full Stack Developer with a strong foundation in machine learning and cloud computing. Recent Computer Science graduate with a drive for solving complex problems through data-driven approaches. Experienced in developing innovative solutions using cutting-edge technologies and committed to continuous learning in the ever-evolving tech landscape.
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 ## 🔭 Current Focus
-
 - Advanced Machine Learning Algorithms
 - Cloud Computing with Microsoft Azure
 - Deep Learning & Neural Networks
 - Big Data Analytics
 
 ## 🎯 Expertise
-
 - Data Analysis & Visualization
 - Machine Learning Algorithms
 - Microsoft Azure
