@@ -36,19 +36,25 @@ Passionate Data Scientist and Full Stack Developer with a strong foundation in m
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
-## 🔭 Current Focus
+<div align="left" style="padding: 20px;">
 
-- Advanced Machine Learning Algorithms
-- Cloud Computing with Microsoft Azure
-- Deep Learning & Neural Networks
-- Big Data Analytics
+  <h3>🔭 Current Focus</h3>
+  
+  - Advanced Machine Learning Algorithms
+  - Cloud Computing with Microsoft Azure
+  - Deep Learning & Neural Networks
+  - Big Data Analytics
+</div>
 
-## 🎯 Expertise
+<div align="left" style="padding: 20px;">
 
-- Data Analysis & Visualization
-- Machine Learning Algorithms
-- Microsoft Azure
-- Cloud Architecture
+  <h3>🎯 Expertise</h3>
+  
+  - Data Analysis & Visualization
+  - Machine Learning Algorithms
+  - Microsoft Azure
+  - Cloud Architecture
+</div>
 
 ### 📊 GitHub Analytics
 
