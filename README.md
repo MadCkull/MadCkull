@@ -73,7 +73,7 @@ Passionate Data Scientist and Full Stack Developer with a strong foundation in m
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=MadCkull&theme=darkhub&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=MadCkull&theme=algolia&no-bg=true&margin-w=15&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
