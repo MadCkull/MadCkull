@@ -2,9 +2,9 @@
   
 # Hi there, I'm Hassan Ali 👋
 
-<p align="center">
-  <a href="mailto:MadCkull@gmail.com">
-    <img src="https://komarev.com/ghpvc/?username=MadCkull&label=Profile%20views&color=0e7434&style=flat" />
+<p align="center" style="text-decoration: none;">
+  <a href="mailto:MadCkull@gmail.com" style="text-decoration: none">
+    <img style="text-decoration: none" src="https://komarev.com/ghpvc/?username=MadCkull&label=Profile%20views&color=0e7434&style=flat" />
   </a>
   <a href="https://www.linkedin.com/in/your-profile/">
     <img src="https://img.shields.io/github/followers/MadCkull?label=Follow&style=social" />
@@ -90,12 +90,12 @@ Passionate Data Scientist and Full Stack Developer with a strong foundation in m
 
 ### 🎓 Certifications & Training
 
-<div align="center" style="display: flex; align-items: center; gap: 28px; margin: 8px 45px;">
+<div align="left" style="display: flex; align-items: center; gap: 28px; margin: 8px 45px;">
   <img src="https://img.shields.io/badge/NexSkills-FF6B6B?style=flat&logo=data:image/svg+xml;base64,YOUR_LOGO&logoWidth=20" alt="NexSkills"/>
   <span style="font-size: 16px; font-weight: 500; color: #444;">• Data Analysis & Machine Learning</span>
 </div>
 
-<div align="center" style="display: flex; align-items: center; gap: 30px; margin: 8px 45px;">
+<div align="left" style="display: flex; align-items: center; gap: 30px; margin: 8px 45px;">
   <img src="https://img.shields.io/badge/TechHub-FFB266?style=flat&logo=data:image/svg+xml;base64,YOUR_LOGO&logoWidth=20" alt="TechHub"/>
   <span style="font-size: 16px; font-weight: 500; color: #444;">• Cloud Computing (Azure)</span>
 </div>
