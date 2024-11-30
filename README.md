@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:MadCkull@gmail.com">
-    <img src="https://komarev.com/ghpvc/?username=MadCkull&label=Profile%20views&color=000006&style=flat" />
+    <img src="https://komarev.com/ghpvc/?username=MadCkull&label=Profile%20views&color=0e7434&style=flat" />
   </a>
   <a href="https://www.linkedin.com/in/your-profile/">
     <img src="https://img.shields.io/github/followers/MadCkull?label=Follow&style=social" />
@@ -15,13 +15,14 @@
 
 <p align="center">
   <a href="mailto:MadCkull@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white" />
   </a>
+
   <a href="https://www.linkedin.com/in/your-profile/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=About.me&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Portfolio-E4405F?style=flat&logo=About.me&logoColor=white" />
   </a>
 </p>
 
@@ -36,12 +37,14 @@ Passionate Data Scientist and Full Stack Developer with a strong foundation in m
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 ## 🔭 Current Focus
+
 - Advanced Machine Learning Algorithms
 - Cloud Computing with Microsoft Azure
 - Deep Learning & Neural Networks
 - Big Data Analytics
 
 ## 🎯 Expertise
+
 - Data Analysis & Visualization
 - Machine Learning Algorithms
 - Microsoft Azure
@@ -85,27 +88,29 @@ Passionate Data Scientist and Full Stack Developer with a strong foundation in m
   </a>
 </div>
 
-### 🎓 Certifications
+### 🎓 Certifications & Training
 
-<div align="center">
-  
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Data Science](https://img.shields.io/badge/Data_Science-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-9933CC?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+<div align="center" style="display: flex; align-items: center; gap: 28px; margin: 8px 45px;">
+  <img src="https://img.shields.io/badge/NexSkills-FF6B6B?style=flat&logo=data:image/svg+xml;base64,YOUR_LOGO&logoWidth=20" alt="NexSkills"/>
+  <span style="font-size: 16px; font-weight: 500; color: #444;">• Data Analysis & Machine Learning</span>
+</div>
 
+<div align="center" style="display: flex; align-items: center; gap: 30px; margin: 8px 45px;">
+  <img src="https://img.shields.io/badge/TechHub-FFB266?style=flat&logo=data:image/svg+xml;base64,YOUR_LOGO&logoWidth=20" alt="TechHub"/>
+  <span style="font-size: 16px; font-weight: 500; color: #444;">• Cloud Computing (Azure)</span>
 </div>
 
 ### 📫 How to reach me:
 
-<div align="left">
+<div align="center">
   <a href="https://discord.gg/your-discord">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white" />
   </a>
   <a href="https://twitter.com/your-twitter">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
   </a>
   <a href="https://github.com/MadCkull">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
   </a>
 </div>
 
