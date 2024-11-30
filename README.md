@@ -2,14 +2,14 @@
   
 # Hi there, I'm Hassan Ʌʟı 👋
 
-<p align="center" style="text-decoration: none;">
-  <a href="mailto:MadCkull@gmail.com" style="text-decoration: none">
+<div align="center">
+  <span>
     <img style="text-decoration: none" src="https://komarev.com/ghpvc/?username=MadCkull&label=Profile%20views&color=0e7434&style=flat" />
-  </a>
-  <a href="https://www.linkedin.com/in/your-profile/">
+  </span>
+  <span>
     <img src="https://img.shields.io/github/followers/MadCkull?label=Follow&style=social" />
-  </a>
-</p>
+  </span>
+</div>
 
 ### Data Scientist | Cloud Computing Enthusiast | Full Stack Developer
 
