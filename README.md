@@ -31,7 +31,7 @@
 
 ## 👨‍💻 About Me
 
-Passionate Data Scientist and Full Stack Developer with a strong foundation in machine learning and cloud computing. Recent Computer Science graduate with a drive for solving complex problems through data-driven approaches. Experienced in developing innovative solutions using cutting-edge technologies and committed to continuous learning in the ever-evolving tech landscape.
+Data Scientist driven by curiosity and precision, blending analytical rigor with creative thinking to transform data into meaningful stories..
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
