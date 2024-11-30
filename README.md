@@ -1,155 +1,118 @@
-<!-- Git Stats and Languages -->
 <div align="center">
-  <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin: 0px;">
-    <tr>
-      <td align="center" width="70%" >
-        <!-- GitHub Stats -->
-        <picture>
-          <!-- Source for dark mode -->
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=9932CC&icon_color=9932CC&text_color=c9d1d9" 
-            media="(prefers-color-scheme: dark)" />
-          <!-- Source for light mode -->
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=FF6F61&icon_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-            media="(prefers-color-scheme: light)" />
-          <!-- Default image fallback (light mode) -->
-          <img 
-            width="100%" 
-            srcset="https://github-readme-stats.vercel.app/api?username=MadCkull&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=FF6F61&icon_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-            alt="MadStats" />
-        </picture>
-      </td>
-      <!-- Languages -->
-      <td align="center" width="30%">
-        <!-- Most Used Languages -->
-        <picture>
-          <!-- Source for dark mode -->
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&hide=html&layout=compact&hide_border=true&title_color=9932CC&text_color=c9d1d9&bg_color=0d1117" 
-            media="(prefers-color-scheme: dark)" />
-          <!-- Source for light mode -->
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&hide=html&layout=compact&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-            media="(prefers-color-scheme: light)" />
-          <!-- Default image fallback -->
-          <img 
-            width="100%" 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&hide=html&layout=compact&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-            alt="MadLanguages" />
-        </picture>
-        <!-- Other Languages -->
-        <picture>
-          <!-- Source for dark mode -->
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&custom_title=Other%20Languages&hide=html&layout=compact&hide_border=true&title_color=9932CC&text_color=c9d1d9&bg_color=0d1117" 
-            media="(prefers-color-scheme: dark)" />
-          <!-- Source for light mode -->
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&hide=html&layout=compact&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-            media="(prefers-color-scheme: light)" />
-          <!-- Default image fallback -->
-          <img 
-            width="100%" 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&hide=html&layout=compact&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-            alt="Other Languages" />
-        </picture>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="70%" >
-        <!-- GitHub 2nd Stats -->
-        <picture>
-          <!-- Source for dark mode -->
-          <source 
-            srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MadCkull&theme=tokyonight"
-            media="(prefers-color-scheme: dark)" />
-          <!-- Source for light mode -->
-          <source 
-            srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MadCkull&theme=aura_dark"
-            media="(prefers-color-scheme: light)" />
-          <!-- Default image fallback (light mode) -->
-          <img 
-            src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MadCkull&theme=aura_dark" 
-            alt="MadCkull Profile Summary" />
-        </picture>
-      </td>
-      <!-- GitHub Commit Stats -->
-      <td align="center" width="30%">
-        <!-- Commit Stats -->
-        <picture>
-          <!-- Source for dark mode -->
-          <source 
-            srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MadCkull&theme=tokyonight&utcOffset=5"
-            media="(prefers-color-scheme: dark)" />
-          <!-- Source for light mode -->
-          <source 
-            srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MadCkull&theme=aura_dark&utcOffset=5"
-            media="(prefers-color-scheme: light)" />
-          <!-- Default image fallback (light mode) -->
-          <img 
-            src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MadCkull&theme=aura_dark&utcOffset=5" 
-            alt="MadCkull Productive Time" />
-        </picture>
-      </td>
-    </tr>
-    <tr>
-      <td>
-      </td>
-    </tr>
-    <!-- Top Repositories -->
-    <tr align="center">
-      <td colspan="2">
-        <a href="https://github.com/MadCkull/MadEye">
-          <picture>
-            <!-- Source for dark mode -->
-            <source 
-              srcset="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=MadEye&hide_border=true&title_color=9932CC&text_color=c9d1d9&bg_color=0d1117" 
-              media="(prefers-color-scheme: dark)" />
-            <!-- Source for light mode -->
-            <source 
-              srcset="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=MadEyehide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-              media="(prefers-color-scheme: light)" />
-            <!-- Default image fallback (light mode) -->
-            <img 
-              src="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=MadEye&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-              alt="MadEye Repo" />
-          </picture>
-        </a>
-        <a href="https://github.com/MadCkull/WSAppBak">
-          <picture>
-            <!-- Source for dark mode -->
-            <source 
-              srcset="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=WSAppBak&hide_border=true&title_color=9932CC&text_color=c9d1d9&bg_color=0d1117" 
-              media="(prefers-color-scheme: dark)" />
-            <!-- Source for light mode -->
-            <source 
-              srcset="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=WSAppBak&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-              media="(prefers-color-scheme: light)" />
-            <!-- Default image fallback (light mode) -->
-            <img 
-              src="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=WSAppBak&hide_border=true&title_color=FF6F61&text_color=4A4A4A&bg_color=F7F9FC" 
-              alt="WSAppBak Repo" />
-          </picture>
-        </a>
-      </td>
-    </tr>
-  </table>
+  
+# Hi there, I'm Hassan Ali 👋
+
+<p align="center">
+  <a href="mailto:MadCkull@gmail.com">
+    <img src="https://komarev.com/ghpvc/?username=MadCkull&label=Profile%20views&color=000006&style=flat" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-profile/">
+    <img src="https://img.shields.io/github/followers/MadCkull?label=Follow&style=social" />
+  </a>
+</p>
+
+### Data Scientist | Cloud Computing Enthusiast | Full Stack Developer
+
+<p align="center">
+  <a href="mailto:MadCkull@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-profile/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://your-portfolio.com">
+    <img src="https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=About.me&logoColor=white" />
+  </a>
+</p>
+
+---
+
 </div>
 
-<br>
+## 👨‍💻 About Me
+
+Passionate Data Scientist and Full Stack Developer with a strong foundation in machine learning and cloud computing. Recent Computer Science graduate with a drive for solving complex problems through data-driven approaches. Experienced in developing innovative solutions using cutting-edge technologies and committed to continuous learning in the ever-evolving tech landscape.
+
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
+
+## 🔭 Current Focus
+
+- Advanced Machine Learning Algorithms
+- Cloud Computing with Microsoft Azure
+- Deep Learning & Neural Networks
+- Big Data Analytics
+
+## 🎯 Expertise
+
+- Data Analysis & Visualization
+- Machine Learning Algorithms
+- Microsoft Azure
+- Cloud Architecture
+
+### 📊 GitHub Analytics
 
 <div align="center">
-🏆 GitHub Trophies
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=MadCkull&show=reviews&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MadCkull&layout=compact&langs_count=8&theme=tokyonight"/>
+</div>
+
+### 🔥 Contribution Streak
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MadCkull&theme=tokyonight" alt="MadCkull's streak"/>
+</div>
+
+### 🏆 GitHub Trophies
+
+<div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=MadCkull&theme=darkhub&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
- <div align="center">
+### 🐍 Contribution Graph
 
-`C#` `C++` `Python` `C++` `JavaScript` `HTML/CSS` `React`
+<div align="center">
+  <img src="https://github.com/MadCkull/MadCkull/blob/output/github-contribution-grid-snake.svg" />
+</div>
 
- </div>
+### 📌 Featured Projects
 
-[![Sparkline](https://stars.medv.io/Naereen/badges.svg)](https://stars.medv.io/Naereen/badges)
+<div align="center">
+  <a href="https://github.com/MadCkull/MadEye">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=MadEye&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/MadCkull/WSAppBak">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=MadCkull&repo=WSAppBak&theme=tokyonight" />
+  </a>
+</div>
+
+### 🎓 Certifications
+
+<div align="center">
+  
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Data Science](https://img.shields.io/badge/Data_Science-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-9933CC?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+</div>
+
+### 📫 How to reach me:
+
+<div align="left">
+  <a href="https://discord.gg/your-discord">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/your-twitter">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+  <a href="https://github.com/MadCkull">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
