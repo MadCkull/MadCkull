@@ -131,3 +131,26 @@
     @apply font-sans;
   }
 }
+
+/* ===== Loading Screen Animations ===== */
+
+@keyframes neonPulseAndBreathe {
+  0%, 100% {
+    opacity: 0.85;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.2))
+            drop-shadow(0 0 8px rgba(255, 255, 255, 0.1));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.4))
+            drop-shadow(0 0 12px rgba(255, 255, 255, 0.15));
+  }
+}
+
+.loading-neon-glow {
+  animation: neonPulseAndBreathe 2s ease-in-out infinite;
+}
+
+.loading-breathe {
+  animation: neonPulseAndBreathe 2s ease-in-out infinite;
+}
