@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { motion, AnimatePresence, useMotionValue, animate, MotionValue } from "motion/react";
+import { motion, useMotionValue, animate, MotionValue } from "motion/react";
 import { interpolate } from "flubber";
 import { LETTER_DATA } from "./letters";
 import { useLoadingState } from "./useLoadingState";
-import { ParticleField } from "./ParticleField";
+import { ShatterField } from "./ShatterField";
 import { LOADING } from "@/lib/constants";
 
 // ----- Types & Constants -----
@@ -15,7 +15,7 @@ type AnimationPhase =
   | "fadeIn" // MadCkull fading in
   | "breathing" // MadCkull visible, glow + breathe loop
   | "transitioning" // crossfading to Hassan Ali + position shift
-  | "dissolving" // particle dissolution, revealing page
+  | "shattering" // square shatter, revealing page
   | "done"; // removed overlay, logo stays
 
 const FROM_WORD = ["M", "A", "D", "C", "K", "U", null, null, "L", "L"];
@@ -189,14 +189,14 @@ export function LoadingScreen() {
       ease: [0.25, 0.46, 0.45, 0.94],
     });
 
-    const dissolveTimer = setTimeout(() => {
-      setPhase("dissolving");
+    const shatterTimer = setTimeout(() => {
+      setPhase("shattering");
     }, LOADING.TRANSITION_DURATION);
 
-    return () => clearTimeout(dissolveTimer);
+    return () => clearTimeout(shatterTimer);
   }, [phase, morphProgress]);
 
-  const handleDissolveComplete = useCallback(() => {
+  const handleShatterComplete = useCallback(() => {
     setPhase("done");
   }, []);
 
@@ -220,21 +220,11 @@ export function LoadingScreen() {
 
   return (
     <>
-      <motion.div
+      <div
         className="fixed inset-0 z-[9999]"
         style={{
-          background: "#000",
+          background: phase === "shattering" || phase === "done" ? "transparent" : "#000",
           pointerEvents: phase === "done" ? "none" : "auto",
-        }}
-        animate={{
-          backgroundColor:
-            phase === "dissolving" || phase === "done"
-              ? "rgba(0, 0, 0, 0)"
-              : "rgba(0, 0, 0, 1)",
-        }}
-        transition={{
-          duration: LOADING.DISSOLVE_DURATION / 1000,
-          ease: "easeInOut",
         }}
       >
         <motion.div
@@ -251,23 +241,23 @@ export function LoadingScreen() {
           }}
           animate={{
             left:
-              phase === "transitioning" || phase === "dissolving" || phase === "done"
-                ? "5vw"
+              phase === "transitioning" || phase === "shattering" || phase === "done"
+                ? "9vw"
                 : "50%",
             top:
-              phase === "transitioning" || phase === "dissolving" || phase === "done"
-                ? "5vh"
+              phase === "transitioning" || phase === "shattering" || phase === "done"
+                ? "21vh"
                 : "50%",
             x:
-              phase === "transitioning" || phase === "dissolving" || phase === "done"
+              phase === "transitioning" || phase === "shattering" || phase === "done"
                 ? "0%"
                 : "-50%",
             y:
-              phase === "transitioning" || phase === "dissolving" || phase === "done"
+              phase === "transitioning" || phase === "shattering" || phase === "done"
                 ? "0%"
                 : "-50%",
             scale:
-              phase === "transitioning" || phase === "dissolving" || phase === "done"
+              phase === "transitioning" || phase === "shattering" || phase === "done"
                 ? 0.85
                 : 1,
             opacity: phase === "black" ? 0 : 1,
@@ -294,11 +284,11 @@ export function LoadingScreen() {
               />
             ))}
         </motion.div>
-      </motion.div>
+      </div>
 
-      <ParticleField
-        active={phase === "dissolving"}
-        onComplete={handleDissolveComplete}
+      <ShatterField
+        active={phase === "shattering"}
+        onComplete={handleShatterComplete}
       />
     </>
   );
