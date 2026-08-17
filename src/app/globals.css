@@ -124,13 +124,15 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-hidden h-[100vh];
+    overscroll-behavior: none;
   }
   button:not(:disabled), [role="button"]:not(:disabled) {
     cursor: pointer;
   }
   html {
-    @apply font-sans;
+    @apply font-sans overflow-hidden h-[100vh];
+    overscroll-behavior: none;
   }
 }
 

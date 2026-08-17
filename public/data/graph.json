@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "nextNodeId": 32,
+  "root": 0,
+  "nodes": {
+    "0": {
+      "id": 0,
+      "name": "00 // Origin",
+      "content": "The entry point to the system. Scroll forward to begin traversal.",
+      "x": 100,
+      "y": 500
+    },
+    "1": {
+      "id": 1,
+      "name": "01 // Foundations",
+      "content": "Core architecture, modern web stack, and modular system design.",
+      "x": 280,
+      "y": 500
+    },
+    "2": {
+      "id": 2,
+      "name": "02 // Crossroads",
+      "content": "Major junction. Steer upwards for Design Systems, or downwards for Physics & Audio.",
+      "x": 480,
+      "y": 500
+    },
+    "3": {
+      "id": 3,
+      "name": "03 // Core Highway",
+      "content": "Direct high-speed path through core engineering milestones.",
+      "x": 700,
+      "y": 500
+    },
+    "4": {
+      "id": 4,
+      "name": "04 // Nexus Hub",
+      "content": "Convergence point where design and engineering branches re-unite.",
+      "x": 920,
+      "y": 500
+    },
+    "5": {
+      "id": 5,
+      "name": "05 // Zenith Terminal",
+      "content": "Terminal milestone and creative showcase index.",
+      "x": 1140,
+      "y": 500
+    },
+    "10": {
+      "id": 10,
+      "name": "10 // Visual Design",
+      "content": "Art direction, design tokens, typography, and fluid interfaces.",
+      "x": 400,
+      "y": 280
+    },
+    "11": {
+      "id": 11,
+      "name": "11 // Motion & Physics",
+      "content": "Spring physics, custom camera choreography, and spline trajectories.",
+      "x": 620,
+      "y": 240
+    },
+    "12": {
+      "id": 12,
+      "name": "12 // Generative UI",
+      "content": "Dynamic SVG generation, procedurally calculated lane routing.",
+      "x": 800,
+      "y": 340
+    },
+    "20": {
+      "id": 20,
+      "name": "20 // Realtime Engine",
+      "content": "Low-overhead vector mathematics, zero-DOM path math caching.",
+      "x": 580,
+      "y": 720
+    },
+    "21": {
+      "id": 21,
+      "name": "21 // Spatial Computing",
+      "content": "Coordinate systems, matrix transformations, and multi-axis gestures.",
+      "x": 770,
+      "y": 700
+    },
+    "30": {
+      "id": 30,
+      "name": "30 // Audio Synthesis",
+      "content": "Sub-branch: Web Audio API micro-haptics, sonic resonance triggers.",
+      "x": 680,
+      "y": 880
+    },
+    "31": {
+      "id": 31,
+      "name": "31 // Neural Shaders",
+      "content": "Deep sub-branch: Procedural fog of war shaders and radar maps.",
+      "x": 880,
+      "y": 880
+    }
+  },
+  "edges": [
+    {
+      "id": "e_main_0_1",
+      "from": 0,
+      "to": 1,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_main_1_2",
+      "from": 1,
+      "to": 2,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_main_2_3",
+      "from": 2,
+      "to": 3,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_main_3_4",
+      "from": 3,
+      "to": 4,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_main_4_5",
+      "from": 4,
+      "to": 5,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_branch_1_10",
+      "from": 1,
+      "to": 10,
+      "type": "branch",
+      "curve": 0.05,
+      "diverge": -0.2
+    },
+    {
+      "id": "e_main_10_11",
+      "from": 10,
+      "to": 11,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_main_11_12",
+      "from": 11,
+      "to": 12,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_merge_12_4",
+      "from": 12,
+      "to": 4,
+      "type": "branch",
+      "curve": -0.15,
+      "diverge": 0
+    },
+    {
+      "id": "e_branch_2_20",
+      "from": 2,
+      "to": 20,
+      "type": "branch",
+      "curve": -0.05,
+      "diverge": 0.2
+    },
+    {
+      "id": "e_main_20_21",
+      "from": 20,
+      "to": 21,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_merge_21_4",
+      "from": 21,
+      "to": 4,
+      "type": "branch",
+      "curve": 0.15,
+      "diverge": 0
+    },
+    {
+      "id": "e_branch_20_30",
+      "from": 20,
+      "to": 30,
+      "type": "branch",
+      "curve": 0,
+      "diverge": 0.25
+    },
+    {
+      "id": "e_main_30_31",
+      "from": 30,
+      "to": 31,
+      "type": "main",
+      "curve": 0,
+      "diverge": 0
+    },
+    {
+      "id": "e_merge_31_5",
+      "from": 31,
+      "to": 5,
+      "type": "branch",
+      "curve": 0.1,
+      "diverge": 0
+    }
+  ]
+}

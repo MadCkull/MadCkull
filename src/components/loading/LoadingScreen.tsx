@@ -131,6 +131,8 @@ function MorphingLetter({
 // Wrapper for useTransform that checks if progress exists (motion/react v13 syntax)
 import { useTransform } from "motion/react";
 
+import { useThreadriftStore } from "@/systems/threadrift";
+
 // ----- Main Component -----
 
 export function LoadingScreen() {
@@ -139,6 +141,12 @@ export function LoadingScreen() {
   const [hasMinTimeElapsed, setHasMinTimeElapsed] = useState(false);
 
   const morphProgress = useMotionValue(0);
+  const scrollCurrent = useThreadriftStore((s) => s.scrollCurrent);
+
+  // Parallax Math: fade out LoadingScreen as scrollTarget moves from -1 to 0
+  const heroProgress = Math.max(0, Math.min(1, scrollCurrent + 1));
+  const parallaxTranslateY = heroProgress * -50; 
+  const parallaxOpacity = 1 - Math.min(1, heroProgress * 1.5);
 
   // Phase progression
   useEffect(() => {
@@ -218,13 +226,17 @@ export function LoadingScreen() {
     [fromLayout.totalWidth, toLayout.totalWidth]
   );
 
+  if (heroProgress >= 0.99) return null; // Unmount completely once scrolled
+
   return (
     <>
       <div
-        className="fixed inset-0 z-[9999]"
+        className="fixed inset-0 z-[9999] will-change-transform"
         style={{
           background: phase === "shattering" || phase === "done" ? "transparent" : "#000",
           pointerEvents: phase === "done" ? "none" : "auto",
+          transform: `translateY(${parallaxTranslateY}vh)`,
+          opacity: parallaxOpacity,
         }}
       >
         <motion.div
